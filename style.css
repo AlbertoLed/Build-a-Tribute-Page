@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+}
+body {
+    background-color: #f7f7f5;
+    display: flex;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;;
+}
+#main {
+    flex-basis: 80%;
+    max-width: 900px;
+}
+#title, #sub-title {
+    text-align: center;
+}
+#title {
+    margin-top: 50px;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+#sub-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+#img-div {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #47a0ff 0%, #47f0ff 100%);
+    border-radius: 5px;
+    /* box-sizing: content-box; */
+    padding: 50px;
+}
+#img-caption {
+    text-align: center;
+}
+#collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#tribute-info > h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.movie {
+    flex-basis: 48%;
+    height: 200px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 12px 0;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 3px;
+}
+.movie-name {
+    background-color: #00000090;
+    flex-grow: 1;
+}
+.movie-name p {
+    color: #47f0ff;
+    text-align: center;
+    font-weight: 900;
+}
+#footer {
+    padding: 7px;
+    background: linear-gradient(90deg, #47a0ff 0%, #47f0ff 100%);
+    text-align: center;
+    margin-top: 10px;
+}
+#footer a {
+    color: #000;
+    font-weight: 700;
+}
+
+/*Images*/
+#img-1 {
+    background-image: url("https://assets-prd.ignimgs.com/2022/07/22/spirited-away-1658448348311.jpg?fit=bounds&width=1280&height=720");
+}
+#img-2 {
+    background-image: url("https://assets-prd.ignimgs.com/2022/07/22/my-neighbor-totoro-1658448312671.jpg?fit=bounds&width=1280&height=720");
+}
+#img-3 {
+    background-image: url("https://assets-prd.ignimgs.com/2022/07/22/princess-mononoke-1658448293560.jpg?fit=bounds&width=1280&height=720");
+}
+#img-4 {
+    background-image: url("https://assets-prd.ignimgs.com/2022/07/22/nausica-of-the-valley-of-the-wind-1658448268992.jpg?fit=bounds&width=1280&height=720");
+}
+#img-5 {
+    background-image: url("https://assets-prd.ignimgs.com/2022/07/22/howls-moving-castle-1658448130903.jpg?fit=bounds&width=1280&height=720");
+}
+#img-6 {
+    background-image: url("https://assets-prd.ignimgs.com/2022/07/22/kikis-delivery-service-1658448111692.jpg?fit=bounds&width=1280&height=720");
+}
+#img-7 {
+    background-image: url("https://assets-prd.ignimgs.com/2022/07/22/grave-of-the-fireflies-1658448049900.jpg?fit=bounds&width=1280&height=720");
+}
+#img-8 {
+    background-image: url("https://assets-prd.ignimgs.com/2022/07/21/porco-rosso-1658447664115.jpg?fit=bounds&width=1280&height=720");
+}
+#img-9 {
+    background-image: url("https://assets-prd.ignimgs.com/2022/07/21/ponyo-1658447596206.jpg?fit=bounds&width=1280&height=720");
+}
+#img-10 {
+    background-image: url("https://assets-prd.ignimgs.com/2022/07/21/the-tale-of-the-princess-kaguya-2-1658447536074.jpg?fit=bounds&width=1280&height=720");
+}
+#img-11 {
+    background-image: url("https://assets-prd.ignimgs.com/2022/07/21/the-cat-returns-1658447486536.jpg?fit=bounds&width=1280&height=720");
+}
+#img-12 {
+    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/04/whisper-of-the-heart.jpg?q=50&fit=crop&w=1500&dpr=1.5");
+}
+#img-13 {
+    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2017/03/castle-in-the-sky.jpg?q=50&fit=crop&w=1500&dpr=1.5");
+}
+#img-14 {
+    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/04/pom-poko.jpg?q=50&fit=crop&w=1500&dpr=1.5");
+}
+#img-15 {
+    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/07/the-wind-rises.jpg?q=50&fit=crop&w=1500&dpr=1.5");
+}
+#img-16 {
+    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/04/only-yesterday.jpg?q=50&fit=crop&w=1500&dpr=1.5");
+}
